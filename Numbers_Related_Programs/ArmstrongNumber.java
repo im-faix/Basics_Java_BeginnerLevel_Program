@@ -1,5 +1,13 @@
 import java.util.Scanner;
+/*An Armstrong number, also known as a narcissistic number or pluperfect number, is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
 
+Let's take an example:
+
+In a 3-digit number (like 153), each digit is raised to the power of 3 (since there are three digits), and then summed together.
+
+For instance: 153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+
+Hence, 153 is an Armstrong number.*/
 public class ArmstrongNumber 
 {
 	public static boolean  armstrongNumber(int n)
